@@ -4,8 +4,9 @@
   left: 0;
 
   display: flex;
-  // align-items: center;
+  align-items: center;
   width: 100%;
+  min-height: 112px;
   z-index: 10;
   background-color: $color-default-black;
 }

@@ -2,9 +2,9 @@ import React from 'react';
 
 const Example = () => {
   return (
-    <div>
+    <main>
       <p>EXAMPLE</p>
-    </div>
+    </main>
   );
 };
 
