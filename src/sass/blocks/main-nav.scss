@@ -1,0 +1,33 @@
+.main-nav {
+  display: flex;
+}
+
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding-top: 18px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.main-nav__item:first-child {
+  margin-right: 27px;
+}
+
+.main-nav__link {
+  position: relative;
+  color: $color-default-white;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+
+  &.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background-color: $color-red-orange;
+  }
+}
