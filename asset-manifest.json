@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/traffic-isobar-test/static/css/main.1fea3b67.chunk.css",
-    "main.js": "/traffic-isobar-test/static/js/main.5a2a3689.chunk.js",
-    "main.js.map": "/traffic-isobar-test/static/js/main.5a2a3689.chunk.js.map",
+    "main.js": "/traffic-isobar-test/static/js/main.0fe59187.chunk.js",
+    "main.js.map": "/traffic-isobar-test/static/js/main.0fe59187.chunk.js.map",
     "runtime-main.js": "/traffic-isobar-test/static/js/runtime-main.98f178e1.js",
     "runtime-main.js.map": "/traffic-isobar-test/static/js/runtime-main.98f178e1.js.map",
     "static/js/2.f5e7080a.chunk.js": "/traffic-isobar-test/static/js/2.f5e7080a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.98f178e1.js",
     "static/js/2.f5e7080a.chunk.js",
     "static/css/main.1fea3b67.chunk.css",
-    "static/js/main.5a2a3689.chunk.js"
+    "static/js/main.0fe59187.chunk.js"
   ]
 }
