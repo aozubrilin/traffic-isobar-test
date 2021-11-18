@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/traffic-isobar-test/static/css/main.1fea3b67.chunk.css",
+    "main.js": "/traffic-isobar-test/static/js/main.5a2a3689.chunk.js",
+    "main.js.map": "/traffic-isobar-test/static/js/main.5a2a3689.chunk.js.map",
+    "runtime-main.js": "/traffic-isobar-test/static/js/runtime-main.98f178e1.js",
+    "runtime-main.js.map": "/traffic-isobar-test/static/js/runtime-main.98f178e1.js.map",
+    "static/js/2.f5e7080a.chunk.js": "/traffic-isobar-test/static/js/2.f5e7080a.chunk.js",
+    "static/js/2.f5e7080a.chunk.js.map": "/traffic-isobar-test/static/js/2.f5e7080a.chunk.js.map",
+    "index.html": "/traffic-isobar-test/index.html",
+    "static/css/main.1fea3b67.chunk.css.map": "/traffic-isobar-test/static/css/main.1fea3b67.chunk.css.map",
+    "static/js/2.f5e7080a.chunk.js.LICENSE.txt": "/traffic-isobar-test/static/js/2.f5e7080a.chunk.js.LICENSE.txt",
+    "static/media/athletic-guy.fa989ff0.png": "/traffic-isobar-test/static/media/athletic-guy.fa989ff0.png",
+    "static/media/style.scss": "/traffic-isobar-test/static/media/menu.daeddfaf.svg",
+    "static/media/logo.25d631d7.svg": "/traffic-isobar-test/static/media/logo.25d631d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98f178e1.js",
+    "static/js/2.f5e7080a.chunk.js",
+    "static/css/main.1fea3b67.chunk.css",
+    "static/js/main.5a2a3689.chunk.js"
+  ]
+}
