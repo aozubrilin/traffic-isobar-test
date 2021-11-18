@@ -7,14 +7,7 @@
 html {
   margin: 0;
   padding: 0;
-
-  // font-size: size-desktop-xl(16px);
-
   box-sizing: border-box;
-
-  // @include vp--1919 {
-  //   font-size: 16px;
-  // }
 }
 
 body {
@@ -24,9 +17,9 @@ body {
   height: 100%;
 
   font-style: normal;
-  font-weight: 500;
-  // font-size: size(16px);
-  // line-height: size(24px);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
   font-family: $font-family--roboto;
   color: $color-default-white;
 
@@ -40,7 +33,7 @@ body {
 }
 
 a {
-  color: $color-default-black;
+  color: $color-default-white;
   text-decoration: none;
 }
 

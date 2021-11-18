@@ -1,0 +1,58 @@
+.title {
+  position: relative;
+  max-width: 633px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-size: 60px;
+  line-height: 70px;
+  color: $color-red-orange;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include vp--1023 {
+    max-width: 500px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  @include vp--767 {
+    max-width: 290px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 31px;
+    width: 156px;
+    height: 4px;
+    background-color: $color-red-orange;
+
+    @include vp--1023 {
+      top: 26px;
+      width: 110px;
+    }
+
+    @include vp--767 {
+      top: 20px;
+      width: 50px;
+      height: 3px;
+    }
+
+    @include vp--319 {
+      display: none;
+    }
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+}
