@@ -1,10 +1,8 @@
 .sub-title {
   margin-top: 0;
-  margin-bottom: 27px;
   font-size: 40px;
   line-height: 47px;
   font-weight: 700;
-  text-transform: capitalize;
 
   @include vp--1023 {
     font-size: 36px;
@@ -12,7 +10,6 @@
   }
 
   @include vp--767 {
-    margin-bottom: 22px;
     font-size: 32px;
     line-height: 39px;
     text-align: center;

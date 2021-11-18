@@ -63,6 +63,15 @@
   }
 }
 
+.about-me__name {
+  text-transform: capitalize;
+  margin-bottom: 27px;
+
+  @include vp--767 {
+    margin-bottom: 22px;
+  }
+}
+
 .about-me__text {
   margin-top: 0;
   margin-bottom: 29px;

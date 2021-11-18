@@ -1,5 +1,5 @@
 .button {
-  padding: 15px 26px;
+  padding: 15px 20px;
   max-width: 210px;
   width: 100%;
   min-height: 50px;
@@ -11,6 +11,8 @@
   line-height: 20px;
   cursor: pointer;
   transition: opacity $trans--300;
+  outline: none;
+  border: none;
 
   @include vp--767 {
     max-width: 200px;
