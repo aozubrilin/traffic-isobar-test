@@ -8,7 +8,7 @@ import Footer from '../footer/footer';
 
 const App = () => {
   return (
-      <Router>
+      <Router basename="/traffic-isobar-test">
         <Header/>
         <Routes>
           <Route exact path={AppRoute.MAIN.url} element={<Main/>}/>
