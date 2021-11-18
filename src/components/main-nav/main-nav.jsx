@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {NavLink} from 'react-router-dom';
 import {AppRoute} from '../../const';
 
@@ -16,6 +17,11 @@ const MainNav = ({isMenuOpened, onLinkClick}) => {
       </ul>
     </nav>
   );
+};
+
+MainNav.propTypes = {
+  isMenuOpened: PropTypes.bool.isRequired,
+  onLinkClick: PropTypes.func.isRequired,
 };
 
 export default MainNav;
